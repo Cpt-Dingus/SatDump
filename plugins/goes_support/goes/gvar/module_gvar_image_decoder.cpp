@@ -843,7 +843,7 @@ namespace goes
                 else if (isImageInProgress)
                     ImGui::TextColored(style::theme.orange, "Receiving...");
                 else
-                    ImGui::TextColored(style::theme.red, "IDLE");
+                    ImGui::TextColored(style::theme.red, "Waiting for image...");
             }
             ImGui::EndGroup();
 
